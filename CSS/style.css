@@ -1,0 +1,258 @@
+.header,
+.article {
+  width: 1440px;
+  margin: 0 auto;
+}
+.f {
+  font-family: "DM Serif Display", sans-serif;
+  font-family: "Jost", sans-serif;
+}
+a {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: #292f36;
+}
+/*BLOCK HEADER*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 22px auto;
+}
+
+.logo {
+}
+.nav {
+  width: 540px;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__list a {
+  transition: color 0.5s;
+}
+.nav__list a:hover {
+  color: #cda274;
+}
+.nav__list-item {
+}
+/*SECTION HOME*/
+.section__home {
+  max-width: 100%;
+  height: 831px;
+  background: url(../Images/first__section.png);
+  border-radius: 0 0 0 25%;
+  margin-bottom: 110px;
+}
+.section__home-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  padding-top: 195px;
+  padding-left: 120px;
+}
+.section__home-title {
+  font-family: "DM Serif Display", sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 120%;
+  color: #292f36;
+  margin-bottom: 19px;
+}
+.section__home-text {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+  margin-bottom: 35px;
+}
+.section__home-btn {
+  max-width: 210px;
+  padding: 22px 0;
+  text-align: center;
+  background-color: #292f36;
+  color: #ffffff;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  border-radius: 8px;
+}
+/*BLOCK INTERER*/
+.interer {
+  margin-bottom: 185px;
+}
+.interer__container {
+  max-width: 1200px;
+  background-color: #f4f0ec;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+.conrainer__item {
+  margin: 50px 75px;
+}
+.container__item-title {
+  font-family: "DM Serif Display", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 156%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #292f36;
+  margin-bottom: 17px;
+}
+.container__item-text {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #4d5053;
+}
+/*BLOCK ESTIMATE*/
+.estimate {
+  margin-bottom: 100px;
+}
+.estimate__containet {
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+.estimate__description {
+  max-width: 592px;
+}
+.description__block {
+  align-self: center;
+}
+
+.estimate__title {
+  font-family: "DM Serif Display", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 130%;
+  letter-spacing: 0em;
+  color: #292f36;
+  margin-bottom: 42px;
+}
+.estimate__text {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+  margin-right: 60px;
+  margin-bottom: 183px;
+}
+.estimate__link {
+  display: inline-block;
+  max-width: 165px;
+  background-color: #292f36;
+  color: #ffffff;
+  padding: 22px 50px;
+  border-radius: 8px;
+}
+/*BLOCK BRANDS*/
+.brands {
+  margin-bottom: 100px;
+}
+.brands__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  background-color: #f4f0ec;
+  display: flex;
+  justify-content: space-evenly;
+}
+.brands__container a {
+  align-self: center;
+}
+.brands__image {
+}
+/*BLOCK PROJECTS*/
+.projects {
+  margin-bottom: 100px;
+}
+.projects__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px 20px;
+}
+.projects__container-item {
+}
+.item__link {
+}
+.item__title {
+  font-family: "DM Serif Display", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #292f36;
+}
+.item__text {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+}
+/*BLOCK SOCIALS*/
+.socials {
+  max-width: 1440px;
+  padding: 33px;
+  background-color: #f4f0ec;
+}
+.socials__container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.logo {
+  margin-bottom: 25px;
+}
+.socials__text {
+  max-width: 326px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+  margin-bottom: 30px;
+}
+.socials__list {
+  display: flex;
+  gap: 50px;
+}
+/*BLOCK FOOTER*/
+.footer {
+  height: 80px;
+  background-color: #0f0f0e;
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.footer__text {
+  color: #ced1d4;
+}
+.footer__author {
+  color: #cda274;
+}
